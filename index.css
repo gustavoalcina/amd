@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+
+}
+
+
+
+
+.cabecalho__marca__nome{
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    height: 100px;
+    margin-top: -90px;
+    font-size: 60px;
+    color:#ffffff;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+}
+
+
+
+.apresentacao__conteudo__titulo{
+        font-family: "Russo One", sans-serif;
+        font-weight: 400px;
+        font-style: normal;
+        font-size: 50px;
+        color: #ffffff;
+        margin-top: 350px;
+        margin-left: 70px;
+        
+      
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 40px;
+    color: #ffffff;
+    margin-top: 50px;
+    margin-left: 100px;
+
+}
+
+
+ .apresentacao__conteudo__titulo {
+    color: #ffffff;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-left: 70px;
+}
+
+.apresentacao__imagem {
+    width: 15vw;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.sobre {
+    color: #ffffff;
+    font-size: 30px;
+    margin-left: 300px;
+    margin-top: -250px;
+    width: 300px;
+}
+
+
+ .rodape {
+    margin-top: 170px;
+    font-size: 40px;
+    color: #ffffff;
+    margin-left: 50px;
+ }
+
+ .rodape_dados {
+    font-size: 25px;
+    color: #ffffff;
+    margin-left: 60px;
+    margin-top: 50px;
+ }
+
+ a{
+    margin-left: 80%;
+    color: #ffffff;
+ }
+
+ @media (max-width: 1280px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cabecalho__marca__nome {
+        font-size: 1.2em;
+    }
+
+    .apresentacao__conteudo__titulo {
+        font-size: 1.5em;
+    }
+
+    .sobre, .rodape_dados {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 720px) {
+    .cabecalho__marca__logo {
+        max-width: 50px;
+    }
+
+    .cabecalho__marca__nome {
+        font-size: 1em;
+    }
+
+    .apresentacao__conteudo__titulo {
+        font-size: 1.2em;
+    }
+}
